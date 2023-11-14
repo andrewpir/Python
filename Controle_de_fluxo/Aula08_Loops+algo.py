@@ -70,17 +70,28 @@ while valor > 20:
 
 
 #operadores Ternários
-
+'''
 idade = input("Digite sua idade: ")
 idade = int(idade)
-'''
+
 if idade >= 16:
     resultado = "Voto permitido"
 else
     resultado = "voto não permitido"
-'''
+
 resultado = "voto permitido" if idade >= 16 else "voto não permitido"
 
 print(resultado)
+'''
+#if são condicionais
+#for loop pra quando vc sabe quantos loops precisa
+#while para quando não se sabe quantos loops precisa
 
+valor = input("Digite o valor do produto: ")
+valor = int(valor)
+valorfinal = 0
 
+while valor >= 20:
+    valorfinal = valor + (valor * 0.1) # adicionando 10%
+    print(f"o valor final do produto será de {valorfinal}")
+    break
