@@ -36,7 +36,7 @@ somadenumeros1()
 '''
 
 #Parametros e Argumentos
-
+'''
 def boasvindas(nome, numero):
     print(f"ola {nome}")
     print(f"um numero é {str(numero)}")
@@ -57,3 +57,23 @@ def boasvindascomdefault(nome = "comprador", numero = 18): #os que {forem defini
 
 boasvindascomdefault()
 boasvindascomdefault("Andrew")
+'''
+
+# Return
+
+def cliente(nome):
+    print(f"Olá {nome}")
+
+
+def cliente1(nome):
+    return f"olá {nome}"
+
+
+nomec = "algum nome"
+
+
+x = cliente(nomec)
+y = cliente1(nomec)
+
+print(x)
+print(y)
