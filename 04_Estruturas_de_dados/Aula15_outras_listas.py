@@ -18,7 +18,7 @@ print(num1 & num2) # "AND" só mostra os que são repetidos
 '''
 
 #set evita items duplicados
-
+'''
 lista1 = [1,2,3,4,5,6,7,8,9]
 s1 = {1,2,3,4,5,6,7,8,9}
 s1.add(10)
@@ -39,6 +39,26 @@ print(s1)
 print(type(lista1))
 print(type(s1))
 
+'''
+
+#set com strings
+
+set1 = {"a", "b", "c"}
+set2 = {"a", "d", "e"}
+set3 = {"c", "d", "f"}
+
+set4 = set1.union(set2)
+set5 = set1.difference(set3)
+set6 = set1.intersection(set2)
+set7 = set1.symmetric_difference(set3)
+
+
+print(set4)
+print(set5)
+print(set6)
+print(set7)
+#print(set8)
+#print(set9)
 
 
 
